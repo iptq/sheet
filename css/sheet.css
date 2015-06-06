@@ -29,9 +29,13 @@
 .hero:after {
   content: "";
   display: block;
+  border: 1px solid #cce5ff;
+  background-color: #e6f2ff;
+  left: 0px;
   bottom: 0px;
   width: 100%;
-  height: 6px;
+  height: 4px;
+  box-sizing: border-box;
 }
 .row {
   width: 100%;
