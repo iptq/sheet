@@ -2,11 +2,16 @@
 
 // Colors
 
-@white: #FFF;
+@black: #000;
 @blue: #06C;
+@white: #FFF;
 
 @light-blue: lighten(@blue, 50%);
 @lighter-blue: lighten(@blue, 55%);
+
+@gray: lighten(@black, 35%);
+@light-gray: lighten(@black, 50%);
+@lighter-gray: lighten(@black, 65%);
 
 // Typography
 
@@ -28,7 +33,7 @@
 @hero-padding: 30px;
 @hero-color: inherit;
 @hero-border-color: @light-blue;
-@hero-background-color: @white;
+@hero-background-color: @lighter-gray;
 @hero-fsize: ceil((@base-fsize * 1.5));
 
 @hero-heading-color: inherit;

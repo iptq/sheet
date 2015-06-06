@@ -6,7 +6,7 @@
   margin-bottom: 30px;
   color: inherit;
   border: 1px solid #cce5ff;
-  background-color: #ffffff;
+  background-color: #a6a6a6;
 }
 .hero h1,
 .hero .h1 {
@@ -32,7 +32,7 @@
   display: block;
   position: absolute;
   border: 1px solid #cce5ff;
-  background-color: #ffffff;
+  background-color: #a6a6a6;
   left: 0px;
   bottom: 0px;
   width: 100%;
