@@ -2,3 +2,7 @@
 .row {
   width: 100%;
 }
+html,
+body {
+  font-family: "Oxygen", Arial, Helvetica, sans-serif;
+}
