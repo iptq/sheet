@@ -1,4 +1,13 @@
 @import url(//fonts.googleapis.com/css?family=Oxygen:400,300,700);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
 .hero {
   position: relative;
   padding-top: 30px;
