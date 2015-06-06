@@ -43,6 +43,7 @@ h6 {
   font-weight: 400;
 }
 .header:after {
+  content: "";
   display: block;
   margin-top: 0.1em;
   margin-bottom: 0.15em;
