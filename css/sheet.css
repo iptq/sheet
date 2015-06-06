@@ -29,6 +29,7 @@
 .hero:after {
   content: "";
   display: block;
+  position: absolute;
   border: 1px solid #cce5ff;
   background-color: #e6f2ff;
   left: 0px;
