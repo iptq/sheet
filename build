@@ -1,5 +1,7 @@
 BASEDIR=/home/ubuntu/workspace/sheet
 
+lessc -x $BASEDIR/src/less/sheet.less $BASEDIR/css/sheet.min.css
+
 cd $BASEDIR
 git add . -A
 git commit -m "$1"
