@@ -5,5 +5,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header:after {
-    content: "<hr />";
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.15em;
+    
+    height: 1px;
+    border-radius: @border-radius;
+    width: 100%;
+    background-color: @lighter-gray;
 }
