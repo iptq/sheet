@@ -1,3 +1,26 @@
 .hero {
+    padding-top: @hero-padding;
+    padding-bottom: @hero-padding;
     
+    margin-bottom: @hero-padding;
+    color: @hero-color;
+    background-color: @hero-background-color;
+    
+    h1, .h1 {
+        color: @hero-heading-color;
+    }
+    
+    @media screen and (min-width: @screen-sm-min) {
+        padding-top: (@hero-padding * 1.5);
+        padding-bottom: (@hero-padding * 1.5);
+        
+        .container &, .container-fluid & {
+            padding-left: (@hero-padding * 2);
+            padding-right: (@hero-padding * 2);
+        }
+        
+        h1, .h1 {
+            font-size: @hero-heading-fsize;
+        }
+    }
 }

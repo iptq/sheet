@@ -1,11 +1,21 @@
 @font-name: "Oxygen";
 
+// Colors
+
 @blue: #06C;
 
 @light-blue: lighten(@blue, 50%);
+
+// Typography
+
+@base-fsize: 14px;
 
 // Hero
 
 @hero-padding: 30px;
 @hero-color: inherit;
-@hero-bg: @light-blue;
+@hero-background-color: @light-blue;
+@hero-fsize: ceil((@base-fsize * 1.5));
+
+@hero-heading-color: inherit;
+@hero-heading-fsize: ceil((@base-fsize * 4.5));
