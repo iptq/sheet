@@ -1,5 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Oxygen:400,300,700);
 .hero {
+  position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
