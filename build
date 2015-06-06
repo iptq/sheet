@@ -1,0 +1,6 @@
+BASEDIR=/home/ubuntu/workspace/sheet
+
+cd $BASEDIR
+git add . -A
+git commit -m "$1"
+git push origin gh-pages
