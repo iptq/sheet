@@ -7,6 +7,7 @@ h5,
 h6 {
   margin-top: 0.2em;
   margin-bottom: 0.2em;
+  font-weight: 400;
 }
 .hero {
   position: relative;
@@ -61,4 +62,5 @@ h6 {
 html,
 body {
   font-family: "Oxygen", Arial, Helvetica, sans-serif;
+  background-color: #e6e6e6;
 }
