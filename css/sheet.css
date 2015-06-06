@@ -5,7 +5,7 @@
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  border: 1px solid #a6a6a6;
+  border: 1px solid #bfbfbf;
   background-color: #ffffff;
 }
 .hero h1,
@@ -31,7 +31,7 @@
   content: "";
   display: block;
   position: absolute;
-  border: 1px solid #a6a6a6;
+  border: 1px solid #bfbfbf;
   background-color: #ffffff;
   left: 0px;
   bottom: 0px;
