@@ -31,7 +31,7 @@
   content: "";
   display: block;
   position: absolute;
-  border: 1px solid #bfbfbf;
+  border-top: 1px solid #bfbfbf;
   background-color: #ffffff;
   left: 0px;
   bottom: 0px;
