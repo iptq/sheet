@@ -1,4 +1,4 @@
-BASEDIR=/home/ubuntu/workspace/sheet
+BASEDIR=/home/ubuntu/workspace
 
 lessc -x $BASEDIR/src/less/sheet.less $BASEDIR/css/sheet.min.css
 
