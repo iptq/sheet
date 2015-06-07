@@ -75,6 +75,7 @@
   padding: 10px 20px;
   border-radius: 3px;
   color: #000000;
+  background-color: #ffffff;
   transition: all 0.2s ease-out;
 }
 .navbar .navbar-items a:hover {
@@ -85,6 +86,7 @@
 }
 .navbar .navbar-items a.brand-item:hover {
   color: #000000;
+  background-color: #ffffff;
 }
 .navbar:after {
   content: "";
