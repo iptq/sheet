@@ -21,6 +21,7 @@
         
         a {
             font-size: @navbar-fsize;
+            color: lighten(@navbar-color, 10%);
             
             text-decoration: none;
             display: inline-block;
@@ -36,6 +37,10 @@
         
         a.brand-item {
             font-size: @navbar-fsize * 1.25;
+        }
+        
+        a.brand-item:hover {
+            color: @navbar-color;
         }
     }
 }
