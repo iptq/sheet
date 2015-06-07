@@ -121,6 +121,17 @@
     padding-right: 40px;
   }
 }
+@media screen and (max-width: 768px) {
+  .section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .container .section,
+  .container-fluid .section {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 .section:after {
   content: "";
   display: block;

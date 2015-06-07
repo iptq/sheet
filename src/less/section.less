@@ -21,6 +21,16 @@
             padding-right: (@section-padding * 2);
         }
     }
+    
+    @media screen and (max-width: @screen-sm) {
+        padding-top: (@section-padding * 1);
+        padding-bottom: (@section-padding * 1);
+        
+        .container &, .container-fluid & {
+            padding-left: (@section-padding * 1.25);
+            padding-right: (@section-padding * 1.25);
+        }
+    }
 }
 
 .section:after {
