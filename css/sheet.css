@@ -69,8 +69,7 @@
 .navbar .navbar-items a {
   text-decoration: none;
   display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 10px 10px;
   border-radius: 3px;
   color: inherit;
 }
