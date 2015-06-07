@@ -17,14 +17,17 @@
     .navbar-items {
         list-style-type: none;
         
-        li {
+        a {
+            text-decoration: none;
             display: inline-block;
             padding-left: @navbar-padding;
             padding-right: @navbar-padding;
-            
-            a {
-                text-decoration: none;
-            }
+            border-radius: @border-radius;
+            color: @navbar-color;
+        }
+        
+        a:hover {
+            background-color: @lighter-gray;
         }
     }
 }
