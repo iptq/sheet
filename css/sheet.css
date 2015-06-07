@@ -59,7 +59,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  color: inherit;
+  color: #000000;
   border: 1px solid #bfbfbf;
   background-color: #ffffff;
   transition: none;
@@ -69,11 +69,12 @@
 }
 .navbar .navbar-items a {
   font-size: 14px;
+  color: #1a1a1a;
   text-decoration: none;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 3px;
-  color: inherit;
+  color: #000000;
   transition: all 0.2s ease-out;
 }
 .navbar .navbar-items a:hover {
@@ -81,6 +82,9 @@
 }
 .navbar .navbar-items a.brand-item {
   font-size: 17.5px;
+}
+.navbar .navbar-items a.brand-item:hover {
+  color: #000000;
 }
 .navbar:after {
   content: "";
