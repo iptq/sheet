@@ -68,6 +68,7 @@
   list-style-type: none;
 }
 .navbar .navbar-items a {
+  font-size: 18px;
   text-decoration: none;
   display: inline-block;
   padding: 10px 20px;
@@ -77,6 +78,9 @@
 }
 .navbar .navbar-items a:hover {
   background-color: #e6e6e6;
+}
+.navbar .navbar-items a.brand-item {
+  font-size: 22.5px;
 }
 .navbar:after {
   content: "";

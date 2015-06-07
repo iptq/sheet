@@ -20,6 +20,8 @@
         list-style-type: none;
         
         a {
+            font-size: @navbar-fsize;
+            
             text-decoration: none;
             display: inline-block;
             padding: @navbar-padding (@navbar-padding * 2);
@@ -30,6 +32,10 @@
         
         a:hover {
             background-color: @lighter-gray;
+        }
+        
+        a.brand-item {
+            font-size: @navbar-fsize * 1.25;
         }
     }
 }
