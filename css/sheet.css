@@ -63,6 +63,17 @@
   border: 1px solid #bfbfbf;
   background-color: #ffffff;
 }
+.navbar .navbar-items {
+  list-style-type: none;
+}
+.navbar .navbar-items li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar .navbar-items li a {
+  text-decoration: none;
+}
 .navbar:after {
   content: "";
   display: block;
