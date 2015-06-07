@@ -29,6 +29,16 @@
             font-size: @hero-heading-fsize;
         }
     }
+    
+    @media screen and (max-width: @screen-sm) {
+        padding-top: (@hero-padding * 1);
+        padding-bottom: (@hero-padding * 1);
+        
+        .container &, .container-fluid & {
+            padding-left: (@hero-padding * 1.25);
+            padding-right: (@hero-padding * 1.25);
+        }
+    }
 }
 
 .hero:after {

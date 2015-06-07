@@ -38,6 +38,17 @@
     font-size: 63px;
   }
 }
+@media screen and (max-width: 768px) {
+  .hero {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .container .hero,
+  .container-fluid .hero {
+    padding-left: 37.5px;
+    padding-right: 37.5px;
+  }
+}
 .hero:after {
   content: "";
   display: block;
