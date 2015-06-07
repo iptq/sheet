@@ -72,6 +72,7 @@
   padding: 10px 20px;
   border-radius: 3px;
   color: inherit;
+  transition: all 0.2s ease-out;
 }
 .navbar .navbar-items a:hover {
   background-color: #e6e6e6;
